@@ -96,7 +96,7 @@ ReasonMind-3B/
 
 ## 🔥 Inference Example (Python)
 
-
+```python
 from llama_cpp import Llama
 
 llm = Llama(
@@ -105,6 +105,7 @@ llm = Llama(
 
 response = llm("Solve: If A has 3 apples and buys 5 more, how many total?")
 print(response["choices"][0]["text"])
+```
 🧪 Sample Output
 <think>
 A has 3 apples. He buys 5 more.
