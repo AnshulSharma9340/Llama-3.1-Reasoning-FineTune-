@@ -96,7 +96,7 @@ ReasonMind-3B/
 
 ## 🔥 Inference Example (Python)
 
-```python
+
 from llama_cpp import Llama
 
 llm = Llama(
